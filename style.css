@@ -1,0 +1,30 @@
+
+
+img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+
+
+.plagg {
+    display: none;
+}
+
+
+.tikki{
+    display: none;
+    
+}
+
+
+.duuduu{
+    display: none;
+}
+
+
+.nooroo{
+    display: none;
+}
