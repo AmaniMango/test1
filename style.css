@@ -1,7 +1,7 @@
 
 
 img{
-    width: 50px;
+    width: 20px;
     /* height: 300px; */
     object-fit: cover;
     object-position: bottom;
@@ -10,21 +10,28 @@ img{
 
 
 .plagg {
+    width: 50px;
     display: none;
-}
-
-
-.tikki{
-    display: none;
+ 
     
 }
 
 
+
+
+
+.tikki{
+    display: display;
+}
+
+
 .duuduu{
+    width: 50px;
     display: none;
 }
 
 
 .nooroo{
+    width: 50px;
     display: none;
 }

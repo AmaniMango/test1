@@ -11,30 +11,30 @@ let nooroo = document.querySelector(".nooroo");
 
 
 
-plagg.style.display = "none";
-tikki.style.display = "none";
-nooroo.style.display = "none";
-duusuu.style.display = "none";
+// plagg.style.display = "none";
+// tikki.style.display = "none";
+// nooroo.style.display = "none";
+// duusuu.style.display = "none";
 
 button.addEventListener("click", function(){
     let answer1 = input1.value;
     let answer2 = input2.value;
 
-if (!answer1 || !answer2){
-    message.innerHTML = "Please Input something";
-    plagg.style.display = "none";
-    tikki.style.display = "none";
-    nooroo.style.display = "none";
-    duusuu.style.display = "none";
-}
+// if (!answer1 || !answer2){
+//     message.innerHTML = "Please Input something";
+//     plagg.style.display = "none";
+//     tikki.style.display = "none";
+//     nooroo.style.display = "none";
+//     duusuu.style.display = "none";
+// }
 
 //Tikki
-else if (answer1 === "yes" && answer2 === "sweet"){
-    message.innerHTML = "Tikki";
-    plagg.style.display = "none";
-    tikki.style.display = "block";
-    nooroo.style.display = "none";
-    duusuu.style.display = "none";
+ if (answer1 === "yes" && answer2 === "sweet"){
+    message.innerHTML = `<div class="tikki">
+    <h3>Tikki</h3>
+    <img src="tikki.jpg"alt="Tikki the kwami from Miraculous Ladybug"/>
+    </div>`;
+
 }
 //Nooroo
 else if (answer1 === "yes" && answer2 === "savory"){
@@ -79,3 +79,17 @@ else if (answer1 === "no" && answer2 === "sweet"){
     //     }
     
 });
+
+
+{/* <div class="plagg">
+<img src="Plagg.jpg" alt="Plagg the kwami"/>
+</div>
+<div class="tikki">
+<img src="tikki.jpg"alt="Tikki the kwami from Miraculous Ladybug"/>
+</div>
+<div class="nooroo">
+<img src="nooroo.jpg"alt="Nooroo the kwami from Miraculous Ladybug"/>
+</div>
+<div class="duusuu">
+<img src="Duusu.jpg"alt="Duusuu the kwami from Miraculous Ladybug"/>
+</div> */}
