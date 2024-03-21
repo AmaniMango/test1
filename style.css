@@ -7,6 +7,12 @@ img{
     /* object-fit: cover;
     object-position: bottom; */
 }
+
+button{
+border-radius: 40px;
+color:#17134a;
+    
+}
 body {
     background: #ccb9e0    ;
     color: rgb(187, 199, 230);
