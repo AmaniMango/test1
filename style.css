@@ -1,14 +1,15 @@
 
 
 img{
-    width: 20px;
+    width: 200px;
+    border-radius: 50%;
     /* height: 300px; */
     /* object-fit: cover;
     object-position: bottom; */
 }
 body {
-    background: #e0b9cd    ;
-    
+    background: #ccb9e0    ;
+    color: rgb(174, 185, 214);
     text-align: center;
 }
 
@@ -23,10 +24,15 @@ body {
 
 .title h1{
     font-family: 'Kalam', cursive;
-    color: #c8e37d;
-    font-size: 60px;
+    color: #ccb9e0;
+    font-size: 20px;
 }
 
+.questions{
+    margin-top: 20px;
+    background-color: #17134a;
+    padding: 5px 5px;
+    border-radius: 20px;}
 
 
 
