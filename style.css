@@ -3,6 +3,7 @@
 img{
     width: 200px;
     border-radius: 50%;
+    border-style: dotted;
     /* height: 300px; */
     /* object-fit: cover;
     object-position: bottom; */
