@@ -9,13 +9,6 @@ let tikki = document.querySelector(".tikki");
 let duusuu = document.querySelector(".duusuu");
 let nooroo = document.querySelector(".nooroo");
 
-
-
-// plagg.style.display = "none";
-// tikki.style.display = "none";
-// nooroo.style.display = "none";
-// duusuu.style.display = "none";
-
 button.addEventListener("click", function(){
     let answer1 = input1.value;
     let answer2 = input2.value;
@@ -32,56 +25,36 @@ button.addEventListener("click", function(){
  if (answer1 === "yes" && answer2 === "sweet"){
     message.innerHTML = `<div class="tikki">
     <h3>Tikki</h3>
-    <img src="tikki.jpg"alt="Tikki the kwami from Miraculous Ladybug"/>
+    <img src="tikki.jpg"alt="Tikki the kwami from Miraculous Ladybug" width="300"/>
     </div>`;
-
 }
 //Nooroo
 else if (answer1 === "yes" && answer2 === "savory"){
-    message.innerHTML = "Nooroo";
-    plagg.style.display = "none";
-    tikki.style.display = "none";
-    nooroo.style.display = "block";
-    duusuu.style.display = "none";
+    message.innerHTML = `<div class="nooroo">
+    <h3>Nooroo</h3> 
+    <img src="nooroo.jpg"alt="Nooroo the kwami from Miraculous Ladybug" width="300"/>
+    </div>`;
 }
+
 //Plagg
 else if (answer1 === "no" && answer2 === "savory"){
-    message.innerHTML = "Plagg";
-    plagg.style.display = "block";
-    tikki.style.display = "none";
-    nooroo.style.display = "none";
-    duusuu.style.display = "none";
+    message.innerHTML = `<div class= "plagg">
+    <h3>Plagg</h3> 
+    <img src="Plagg.jpg" alt="Plagg the kwami" width="300"/>
+    </div>`;
 }
+
 //Duusuu
 else if (answer1 === "no" && answer2 === "sweet"){
-    message.innerHTML = "Duusuu";
-    plagg.style.display = "none";
-    tikki.style.display = "none";
-    nooroo.style.display = "none";
-    duusuu.style.display = "block";
+    message.innerHTML = `<div class= "Duusuu">
+    <h3>Duusuu</h3> 
+    <img src="Duusu.jpg"alt="Duusuu the kwami from Miraculous Ladybug" width="300"/>
+    </div>`;
 }
-//Make it so when the results come in, the image of the character they got reveals.
-
-    // if(!q1){
-        // document.querySelector("message").innerHTML = "enter something";
-
-    // }
-// if (q1 === "yes"){
-    // 
-// }
-
-    // if(!q1 || !q2){
-    //     message.innerHTML = "You need to enter SOMETHING. ";
-    //     }
-    //     else if (q1 === "yes" && q2 ==="sweet"){
-    //     console.log("success");
-    //         message.innerHTML ="Success!";
-    //     }
-    
 });
 
 
-{/* <div class="plagg">
+/* <div class="plagg">
 <img src="Plagg.jpg" alt="Plagg the kwami"/>
 </div>
 <div class="tikki">
@@ -92,4 +65,4 @@ else if (answer1 === "no" && answer2 === "sweet"){
 </div>
 <div class="duusuu">
 <img src="Duusu.jpg"alt="Duusuu the kwami from Miraculous Ladybug"/>
-</div> */}
+</div> */

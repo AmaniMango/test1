@@ -3,12 +3,36 @@
 img{
     width: 20px;
     /* height: 300px; */
-    object-fit: cover;
-    object-position: bottom;
+    /* object-fit: cover;
+    object-position: bottom; */
+}
+body {
+    background: #e0b9cd    ;
+    
+    text-align: center;
+}
+
+/* cool color #624b86 */
+
+.title{
+    margin-top: 20px;
+    background-color: #17134a;
+    padding: 5px 5px;
+    border-radius: 20px;
+}
+
+.title h1{
+    font-family: 'Kalam', cursive;
+    color: #c8e37d;
+    font-size: 60px;
 }
 
 
 
+
+
+
+/* 
 .plagg {
     width: 50px;
     display: none;
@@ -21,7 +45,7 @@ img{
 
 
 .tikki{
-    display: display;
+    display: none;
 }
 
 
@@ -32,6 +56,6 @@ img{
 
 
 .nooroo{
-    width: 50px;
+     width: 50px; 
     display: none;
-}
+}  */
