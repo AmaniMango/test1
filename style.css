@@ -1,14 +1,20 @@
 
 
 img{
+    color: rgb(255, 255, 255);
     width: 200px;
     border-radius: 50%;
     border-style: dotted;
-    /* height: 300px; */
-    /* object-fit: cover;
-    object-position: bottom; */
 }
 
+.intro img {
+    /* width: 500px;
+    border-radius: 50%;
+    border-style: dotted; */
+    color: rgb(255, 255, 255);
+   
+    
+}
 button{
 border-radius: 40px;
 color:#17134a;
@@ -31,6 +37,7 @@ input{
     background-color: #17134a;
     padding: 5px 5px;
     border-radius: 20px;
+    padding-bottom: 20px;
 }
 
 .title h1{
@@ -43,36 +50,12 @@ input{
     margin-top: 20px;
     background-color: #17134a;
     padding: 5px 5px;
-    border-radius: 20px;}
-
-
-
-
-
-/* 
-.plagg {
-    width: 50px;
-    display: none;
- 
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
     
-}
 
 
 
 
 
-.tikki{
-    display: none;
-}
-
-
-.duuduu{
-    width: 50px;
-    display: none;
-}
-
-
-.nooroo{
-     width: 50px; 
-    display: none;
-}  */

@@ -9,7 +9,14 @@ let tikki = document.querySelector(".tikki");
 let duusuu = document.querySelector(".duusuu");
 let nooroo = document.querySelector(".nooroo");
 
+let intro = document.querySelector(".intro");
+let list = document.querySelector(".list");
+
 button.addEventListener("click", function(){
+//display none to what u want to dissapear. (the classes)
+    intro.style.display = "none";
+    list.style.display = "none";
+
     let answer1 = input1.value;
     let answer2 = input2.value;
 
